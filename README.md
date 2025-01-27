@@ -15,4 +15,7 @@ This is a simple application where you can keep track of daily tasks and offers 
 
 <img width="471" alt="Screenshot 2025-01-27 at 1 34 02 PM" src="https://github.com/user-attachments/assets/0a765eee-e6cd-4808-a4e0-58115ea6d7ca" />
 
+## Old version
+
+<img width="786" alt="Screenshot 2025-01-27 at 1 37 19 PM" src="https://github.com/user-attachments/assets/edd93c73-70be-4320-8966-dd4639ac9a9d" />
 
