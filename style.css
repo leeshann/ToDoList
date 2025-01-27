@@ -1,0 +1,111 @@
+/* width: how wide are the things I am inside of?
+height: how tall are the things inside of me? */
+
+body {
+    min-height: 100vh; 
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: grey;
+
+}
+
+
+/* CSS BELOW */
+
+main {
+    width: 30%;
+    min-height: 100%;
+
+    margin: auto;
+
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+#header {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 1px solid red;
+    
+    font-family: "Gamja Flower", sans-serif;
+    font-size: 5rem;
+}
+
+#list { 
+    margin-top: 0;
+    margin-bottom: 2rem;
+
+    padding-left: 0;
+}
+
+.listItem {
+    padding: 0.5rem 0.5rem;
+    border-bottom: 1px solid rgb(52, 52, 164);
+
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    align-items: center;
+
+    list-style: none;
+}
+
+.itemInput {
+    width: 100%;
+    height: 100%;
+    padding: 0.2rem;
+
+    font-size: 2rem;
+    border: none;
+    outline: none;
+
+    background-color: whitesmoke;
+
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: bold;
+}
+
+.buttonStyling {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30px;
+    height: 30px;
+
+    border-radius: 30px;
+    border: none;
+    background-color: whitesmoke;
+
+}
+
+.addNewTaskBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+
+    gap: 0.8rem;
+
+    background-color: whitesmoke;
+    padding-left: 0.1rem;
+    font-size: 2rem;
+
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: bold;
+}
